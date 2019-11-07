@@ -28,7 +28,7 @@ public class AccountController {
     }
 
     /*
-    保存完重定向到findAll
+    保存完重定向到findAll 
      */
     @RequestMapping("/save")
     public void save(Account account, HttpServletRequest request, HttpServletResponse response) throws Exception{
